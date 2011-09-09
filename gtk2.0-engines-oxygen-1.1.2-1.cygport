@@ -6,6 +6,6 @@ HOMEPAGE="http://www.kde.org/"
 SRC_URI="mirror://kde/stable/${ORIG_PN}/${PV}/src/${ORIG_PN}-${PV}.tar.bz2"
 
 PATCH_URI="
-	1.0.0-cmake.patch
+	1.1.2-cmake.patch
 	1.0.0-isnan.patch
 "
