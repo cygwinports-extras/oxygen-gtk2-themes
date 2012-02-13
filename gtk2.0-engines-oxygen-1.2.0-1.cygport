@@ -1,4 +1,4 @@
-ORIG_PN="oxygen-gtk"
+ORIG_PN="oxygen-gtk2"
 inherit cmake
 
 DESCRIPTION="GTK+ Oxygen theme engine"
