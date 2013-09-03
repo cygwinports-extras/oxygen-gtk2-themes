@@ -1,0 +1,11 @@
+--- origsrc/oxygen-gtk2-1.4.0/src/oxygenqtsettings.cpp	2013-08-28 07:58:01.000000000 -0500
++++ src/oxygen-gtk2-1.4.0/src/oxygenqtsettings.cpp	2013-09-02 18:58:58.059987800 -0500
+@@ -331,7 +331,7 @@ namespace Oxygen
+         if( stat( _userConfigDir.c_str(), &st ) != 0 )
+         {
+ 
+-            #if _POSIX_C_SOURCE
++            #if !defined(Q_OS_WIN)
+             mkdir( _userConfigDir.c_str(), S_IRWXU|S_IRWXG|S_IRWXO );
+             #else
+             mkdir( _userConfigDir.c_str() );
