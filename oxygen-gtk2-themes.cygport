@@ -1,7 +1,7 @@
 inherit cmake
 
 NAME="oxygen-gtk2-themes"
-VERSION=1.4.0
+VERSION=1.4.3
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="GTK+2 Oxygen theme engine"
@@ -17,5 +17,4 @@ SRC_DIR="oxygen-gtk2-${VERSION}"
 
 PATCH_URI="
 	1.1.2-cmake.patch
-	1.4.0-cygwin.patch
 "
